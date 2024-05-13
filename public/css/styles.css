@@ -1,0 +1,114 @@
+.heading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img{
+  width: 20rem;
+}
+input{
+  border: none;
+}
+.email{
+  border: solid #c5c5c5;
+  border-radius: 7px 7px;
+  width: 20rem;
+margin: 10px auto;
+
+}
+.password{
+  border:solid #c5c5c5;
+  border-radius: 7px 7px;
+  width: 20rem;
+  margin: 10px auto;
+}
+.submit{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button{
+  width: 20rem;
+  border-radius: 7px;
+  border: solid 1px;
+  background-color: #179bd7;
+}
+.icon {
+  padding: 10px;
+  background: white;
+  color: #90a8ae;
+  min-width: 40px;
+  height: 28px;
+  text-align: center;
+}
+.input-container{
+  margin:40px auto;
+}
+input:focus{
+  outline: none
+}
+
+.container{
+  margin-top: 3rem;
+  width: 22rem;
+  height: 30%
+}
+.nav{
+  margin:8rem auto;
+  width: 40%;
+  font-size: 12;
+  font-weight: 700;
+  overflow:hidden;
+}
+.nav a{
+  color: #313d4a;
+}
+.nav a:hover{
+  color: green;
+}
+footer{
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  font-size: 10;
+}
+footer img{
+  height: 25px;
+  width: 30px;
+}
+.footer p{
+  font-size: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+}
+.recap{
+  background-color: white;
+  width: 27rem;
+  height: 21rem;
+  margin: 13rem auto 1rem;
+}
+.cook{
+  background-color: #d35351;
+  color: white;
+  margin: 4rem auto 0;
+  width: 20%;
+  height: 3rem;
+  font-size: 13;
+  border-radius: 7px;
+}
+.cook p{
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+.animate__rubberBand{
+  display: inline-block;
+margin: 0 0.5rem;
+animation: bounce;
+animation-duration: 2s;
+}
